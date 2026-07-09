@@ -38,21 +38,23 @@ Before getting started, make sure you have the following installed:
 
 ## Setup & Environment
 
-This project uses a dedicated configuration file named `src/constants2.js` for local environment values and API credentials.
+This project uses a dedicated configuration file named `src/constants.js` for local environment values and API credentials.
 
 Follow these steps:
 
-1. Duplicate `src/constants.js` (or a provided template file if available) and rename it to `src/constants2.js`.
-2. Open `src/constants2.js` and replace the placeholder API keys and configuration values with your own personal credentials.
-3. Keep `src/constants2.js` local and uncommitted. It is listed in `.gitignore`, so your secrets are never pushed to GitHub.
-
-Example:
+1- create src/constants.js and see the expected structure. It should look like this:
 
 ```bash
-cp src/constants.js src/constants2.js
+export const BASE_URL = "https://(YourProjectID).supabase.co/";
+export const SIGNUP_URL = BASE_URL + "auth/v1/signup";
+export const LOGOUT_URL = BASE_URL + "auth/v1/logout";
+export const LOGIN_URL = BASE_URL + "auth/v1/token?grant_type=password";
+export const SUPABASE_API_KEY = "SUPABASEAPIKEY";
+export const GET_ALL_COURSES = BASE_URL + "rest/v1/courses?select=*";
+export const STRIPE_PUBLISHABLE_KEY = "STRIPE-PUBLISHIBLE-KEY";
 ```
 
-> If you are using a different template or starter file, copy that file instead and rename it to `src/constants2.js`.
+2- Open src/constants.js and replace the placeholder values (like (YourProjectID), SUPABASEAPIKEY, and STRIPE-PUBLISHIBLE-KEY) with your actual project credentials.
 
 ## Running the Development Server
 
