@@ -56,6 +56,8 @@ export const STRIPE_PUBLISHABLE_KEY = "STRIPE-PUBLISHIBLE-KEY";
 
 2- Open src/constants.js and replace the placeholder values (like (YourProjectID), SUPABASEAPIKEY, and STRIPE-PUBLISHIBLE-KEY) with your actual project credentials.
 
+> or there is a file name src/constants2.js rename to constants.js and put your values.
+
 ## Running the Development Server
 
 Start the local development server with:
