@@ -56,6 +56,8 @@ npm install
 
 ## 🔐 Environment Configuration
 
+[Configure Supabase]([https://supabase.com/docs](https://github.com/Codprog-Technologies/Codprog-clone/tree/main/supabase)) to set up your backend database and authentication.
+
 This project uses a dedicated configuration file named `src/constants.js` to manage environment values, API keys, and endpoint URLs securely.
 
 1. Locate the template file `src/constants2.js` and rename it to `src/constants.js`.
