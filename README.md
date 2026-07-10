@@ -1,8 +1,4 @@
-Here is the rewritten `README.md`. It keeps all your essential setup instructions but frames the repository as a serious, production-ready capstone project to immediately catch the eye of recruiters and engineering managers.
 
----
-
-```markdown
 # CodProg LMS - React Capstone Project
 
 🚀 **[View Live Demo](https://codprog.vercel.app/)**
@@ -129,7 +125,3 @@ Contributions, issues, and feature requests are welcome. If you are suggesting a
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-```
-
-```
