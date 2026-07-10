@@ -46,17 +46,20 @@ Before getting started, make sure you have the following installed on your local
 
 ```
 
+
+
+```
+
 2. **Install dependencies:**
 ```bash
 npm install
-
 ```
 
 
 
 ## 🔐 Environment Configuration
 
-[Configure Supabase]([https://supabase.com/docs](https://github.com/Codprog-Technologies/Codprog-clone/tree/main/supabase)) to set up your backend database and authentication.
+**[Configure Supabase](https://github.com/Codprog-Technologies/Codprog-clone/tree/main/supabase)** to set up your backend database and authentication.
 
 This project uses a dedicated configuration file named `src/constants.js` to manage environment values, API keys, and endpoint URLs securely.
 
