@@ -44,11 +44,6 @@ Before getting started, make sure you have the following installed on your local
    git clone <your-repository-url>
    cd codprog-react-project
 
-```
-
-
-
-```
 
 2. **Install dependencies:**
 ```bash
